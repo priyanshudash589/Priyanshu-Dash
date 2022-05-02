@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Dancing+Script&family=Herr+Von+Muellerhoff&family=Montserrat&family=Press+Start+2P&family=Sacramento&family=Source+Sans+Pro:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#E8F9FD,#C4DDFF);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+#home{
+    margin-top:36vh;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+hr{
+    width: 600px;
+    height: 3px;
+    align-items: center;
+    margin-left: 68vh;
+    margin-right: 70vh;
+    border-style:solid;
+    border-top:solid white 4px;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+@font-face {
+    font-family:'Source Sans Pro', sans-serif;
+    src: url();
+  }
+
