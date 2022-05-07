@@ -33,3 +33,8 @@ hr{
     src: url();
   }
 
+  nav{
+      background-color: black;
+      height: 70px;
+
+  }
