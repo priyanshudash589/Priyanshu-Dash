@@ -38,3 +38,19 @@ hr{
       height: 70px;
 
   }
+
+  .leftFirst{
+      height: 500px;
+      width: 50%;
+      background-color: red;
+      position: relative;
+  }
+
+  .riFirst{
+      height:500px ;
+      width:50%;
+      background-color: yellow;
+      position: relative;
+      left:50%;
+      bottom:76.2%;
+  }
