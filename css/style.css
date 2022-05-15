@@ -1,256 +1,203 @@
-
-
-/* .spinner {
-  margin: 100px auto;
-  width: 40px;
-  height: 40px;
-  position: relative;
-  text-align: center;
-  
-  -webkit-animation: sk-rotate 2.0s infinite linear;
-  animation: sk-rotate 2.0s infinite linear;
-}
-
-.dot1, .dot2 {
-  width: 60%;
-  height: 60%;
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  background-color: #333;
-  border-radius: 100%;
-  
-  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
-  animation: sk-bounce 2.0s infinite ease-in-out;
-}
-
-.dot2 {
-  top: auto;
-  bottom: 0;
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
-}
-
-@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
-@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
-
-@-webkit-keyframes sk-bounce {
-  0%, 100% { -webkit-transform: scale(0.0) }
-  50% { -webkit-transform: scale(1.0) }
-}
-
-@keyframes sk-bounce {
-  0%, 100% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 50% { 
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-  }
-}
- */
-
-.profile{
-  background-image: url(/img/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg);
-  width: 100%;
-  height: 360px;
-   /* Set a specific height */
-   min-height: 500px;
-
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-
-display: flex;
-align-items: center;
-justify-content:space-evenly;
-
-
-}
-
-.det{
-  color: #fff;
-}
-
-#personal-info{
-  font-size: 40px;
-}
-strong,span{
-  font-size: 26px;
-  letter-spacing: 2px;
-}
-
-#pic{
-  height: 280px;
-  width: 280px;
-  border: 12px solid rgb(31, 31, 31);
-  border-radius: 160px;
-  /* shape-outside: margin-box; */
-}
-
-body{
-  padding: 0;
-  margin: 0;
-}
-
-
-
-
-
-
-
-.ml5 {
-  position: relative;
-  font-weight: 300;
-  font-size: 90px;
-  color: #402d2d;
-}
-
-.ml5 .text-wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 0.1em;
-  padding-right: 0.05em;
-  padding-bottom: 0.15em;
-  line-height: 1em;
-}
-
-.ml5 .line {
-  /* position: absolute; */
-  left: 0;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  height: 3px;
-  width: 62%;
-  background-color: #402d2d;
-  transform-origin: 0.5 0;
-}
-
-
-.ml5 .letters {
-  display: inline-block;
-  opacity: 0;
-  font-size: 68px;
-}
-
-.deat{
-  margin-top: 60px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-.about{  
-  background-color: bisque;
-  height: 500px;
-  width: 85%;
-  display: flex;
-  justify-content: space-around;
-  align-content: center;
-  
-}
-
-#about-me{
-  font-size: 65px;
-  display: flex;
-}
-
-
-#1{
-  background-color: aquamarine;
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 html{
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.parallax1 {
+  /* The image used */
+  background-image: url("/img/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg");
+
+  /* Set a specific height */
+  min-height: 100vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+align-items: center;
+  color: white;
+  font-size: 90px;
+  font-weight: bolder;
+  flex-direction: column;
+}
+
+.parallax1 h5{
+    font-size: 28px;
+}
+
+
+#idpic{
+    height: 329px;
+    width: 329px;
+    border: 12px solid white;
+    border-radius: 178px;
+    box-shadow: 5px 10px 8px #888888;
+    
+}
+
+
+.idp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.abt{
+    font-size: 78px;
+}
+
+.details{
+    text-align: center;
+    background-color: #FAFDD6;
+    height: 600px;
+}
+
+.adt{
+    font-size: 30px;
+    padding: 6px;
+    cursor: pointer;
+    border: solid black;
+    border-right:0px;
+    border-top:0px;
+    border-bottom: 0px;
+    transition: 0.3s ease;
+
+    
+}
+.adt:hover{
+    background-image: linear-gradient(to right,#E4E9BE,#E9D5DA);
+
+    -webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 0.3s ease;
+
+
+}
+.exad{
+    padding-left: 10px;
+}
+
+.btn{
+    display: flex;
+    
+}
+.wd{
+    padding: 16px;
+    margin: 10px;
+    width: 200px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+
+}
+
+.wd:hover{
+    background-color: rgba(255, 255, 255, 0.173);
+    transition: 0.2s ease-in;
+}
+
+
+.score{
+    background-image: url("/img/aedrian-6gZYR_QFjFE-unsplash.jpg");
+
+    /* Set a specific height */
+    min-height: 58vh;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+    
+
+}
+
+
+
+.scin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.jhk{
+    border: 6px solid white;
+    border-radius:150px; 
+    height:150px;
+    width: 150px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px;
+    
+       
+}
+
+.jhk:hover{
+    filter: invert(0%);
+    transition: 0.3s ease-out;
+    transform: scale(1.3);
+}
+
+.pdf{
+    margin-top: 38px;
+    font-size: 40px;
+    color: white;
+    font-weight: 650;
+    
+}
+.inn{
+    filter: invert(100%);
+}
+.onn{
+    margin-left:32px;
+}
+
+.chh{
+    font-size: 23px;
+}
+   
+
+.portfolio{
+    height: 700px;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.porthead{
+    height: 86px;
+    font-size: 62px;
+    color: white;    
+    padding:;
+    border-style: solid;
+    border-color: black;
+    border-top:0;
+    border-right: 0;
+    border-left: 0;    
+    margin-top: 20px;
+}
+
+
+
+
 
