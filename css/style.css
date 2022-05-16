@@ -174,9 +174,9 @@ transition: 0.3s ease;
    
 
 .portfolio{
-    height: 700px;
+    height: 185vh;
     width: 100%;
-    background-color: aquamarine;
+    background-color: #6D8B74;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -187,17 +187,78 @@ transition: 0.3s ease;
 .porthead{
     height: 86px;
     font-size: 62px;
-    color: white;    
-    padding:;
-    border-style: solid;
-    border-color: black;
+    
+    color: white;
     border-top:0;
     border-right: 0;
     border-left: 0;    
-    margin-top: 20px;
+  
+    
 }
 
 
+.pb{
+    background-image: url(file:///C:/Users/ACER/Downloads/navy-blue-concrete-wall-with-scratches.jpg);
+    font-size: 26px;
+    color: black;
+    font-weight: 200;
+}
+
+.image{
+    border-radius: 0px 38px 0px 38px;
+    box-shadow: 5px 10px 8px #1e1e1e;
+
+}
+
+.image:hover {
+    opacity: 0.9;
+    box-shadow: 5px 10px 8px #1e1e1e;
 
 
+  }
+
+  .txt{
+      background-color: transparent;
+      width: 150px;
+      height: 60px;
+      font-size: 15px;
+      border-radius: 220px;
+      font-weight: 40px;
+      cursor: pointer;
+  }
+  .txt:hover{
+      background-color:black;
+      width: 150px;
+      height: 60px;
+      font-size: 15px;
+      border-radius: 220px;
+      transition: 0.05s ease-in-out;
+      color: white;
+      font-weight: 40px;
+  }
+
+  .conimg{
+      margin-top: 65px;
+  }
+
+  .foot{
+      background-color: black;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      height: 150px;
+      width: 100%;
+      box-sizing: border-box;
+      
+  }
+
+  .fotpic{
+      filter:invert(100%);
+      height: 75px;
+      width: 75px;
+      margin-left: 25px;
+
+  }
+ 
+  
 
