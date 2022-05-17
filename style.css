@@ -9,7 +9,7 @@ body{
 
 .parallax1 {
   /* The image used */
-  background-image: url("/img/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg");
+  background-image: url("file:///D:/PRIYANSHU-DASH/img/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg");
 
   /* Set a specific height */
   min-height: 100vh;
@@ -110,7 +110,7 @@ transition: 0.3s ease;
 
 
 .score{
-    background-image: url("/img/aedrian-6gZYR_QFjFE-unsplash.jpg");
+    background-image: url("file:///D:/PRIYANSHU-DASH/img/aedrian-6gZYR_QFjFE-unsplash.jpg");
 
     /* Set a specific height */
     min-height: 58vh;
