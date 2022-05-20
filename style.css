@@ -1,11 +1,41 @@
 html{
     scroll-behavior: smooth;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     padding: 0;
     margin: 0;
 }
 
+#particles-js{
+    height: 120vh;
+    width: 100%;
+    background-image: url("./img/andrew-kliatskyi-r4HT6aurLQw-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;    
+  
+  align-items: center;
+  flex-direction: column-reverse;
+    
+}
+
+#para{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 95px;
+}
 
 .parallax1 {
   /* The image used */
@@ -20,19 +50,30 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 
-  display: flex;
+  display: flex;    
   justify-content: center;
-align-items: center;
+  align-items: center;
+  text-align: center;
   color: white;
   font-size: 90px;
   font-weight: bolder;
-  flex-direction: column;
+  flex-direction:column;
+  
 }
+
+
 
 .parallax1 h5{
+    position: absolute;
     font-size: 28px;
+   
+   }
+#particles-js{
+    
+    
+    height: 100vh;
+    width: 100%;
 }
-
 
 #idpic{
     height: 329px;
@@ -90,6 +131,12 @@ transition: 0.3s ease;
 
 .btn{
     display: flex;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+
     
 }
 .wd{
