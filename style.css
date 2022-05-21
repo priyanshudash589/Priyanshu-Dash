@@ -93,7 +93,7 @@ body{
 .details{
     text-align: center;
     background-color: #FAFDD6;
-    height: 600px;
+    height: 750px;
 }
 
 .adt{
@@ -150,6 +150,7 @@ transition: 0.3s ease;
 
 
 .score{
+    padding-top: 40px;
     background-image: url("./img/aedrian-6gZYR_QFjFE-unsplash.jpg");
 
     /* Set a specific height */
@@ -216,7 +217,7 @@ transition: 0.3s ease;
 .portfolio{
     height: 185vh;
     width: 100%;
-    background-color: #6D8B74;
+    background-color: #6b9173c1;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -301,4 +302,10 @@ transition: 0.3s ease;
   }
  
   
-
+#po{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 57px;
+    padding-bottom: 40px;
+    font-size: 78px;
+}
