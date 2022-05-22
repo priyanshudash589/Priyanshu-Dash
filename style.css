@@ -114,12 +114,12 @@ body{
     -webkit-transform: scale(1.1);
 -ms-transform: scale(1.1);
 transform: scale(1.1);
-transition: 0.3s ease;
+transition: 0.5s ease;
 
 
 }
 .exad{
-    padding-left: 10px;
+    padding-left: 12px;
 }
 
 .btn{
@@ -175,7 +175,7 @@ transition: 0.3s ease;
     text-align: center;
 }
 .jhk{
-    border: 6px solid white;
+    border: 7px solid white;
     border-radius:150px; 
     height:150px;
     width: 150px;
@@ -245,16 +245,16 @@ transition: 0.3s ease;
     font-weight: 200;
 }
 
-.image{
-    border-radius: 0px 38px 0px 38px;
-    box-shadow: 5px 10px 8px #1e1e1e;
+.image{    
+    padding:10px;
+    
+    
+    
 
 }
 
 .image:hover {
     opacity: 0.9;
-    box-shadow: 5px 10px 8px #1e1e1e;
-
 
   }
 
@@ -266,20 +266,31 @@ transition: 0.3s ease;
       border-radius: 220px;
       font-weight: 40px;
       cursor: pointer;
+      margin-bottom: 35px;
   }
   .txt:hover{
-      background-color:black;
+      background-color: black;
       width: 150px;
       height: 60px;
       font-size: 15px;
       border-radius: 220px;
-      transition: 0.05s ease-in-out;
+      transition: 0.3s ease;
       color: white;
       font-weight: 40px;
   }
 
   .conimg{
-      margin-top: 65px;
+      margin-top: 20px;
+      background:white;
+      width: 30%;
+      height: 45%;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 15px;
+      
+      
   }
 
   .foot{
@@ -309,3 +320,18 @@ transition: 0.3s ease;
     padding-bottom: 40px;
     font-size: 78px;
 }
+
+#sexy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    
+}
+ 
+
+
+
+
+
+
